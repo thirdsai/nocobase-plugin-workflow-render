@@ -1,0 +1,35 @@
+{
+  "name": "@thirdsai/plugin-workflow-render",
+  "displayName": "Workflow: Render (thirds.ai)",
+  "description": "Workflow node that renders a record to a PDF or image with thirds.ai, saves it to an attachment field, and passes the file to later nodes such as Mailer. Includes built-in QR codes.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/server/index.js",
+  "homepage": "https://github.com/thirdsai/nocobase-plugin-workflow-render#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirdsai/nocobase-plugin-workflow-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thirdsai/nocobase-plugin-workflow-render/issues"
+  },
+  "keywords": [
+    "NocoBase",
+    "Workflow",
+    "PDF",
+    "QR code",
+    "thirds.ai"
+  ],
+  "devDependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "2.x",
+    "@nocobase/client-v2": "2.x",
+    "@nocobase/database": "2.x",
+    "@nocobase/plugin-file-manager": "2.x",
+    "@nocobase/plugin-workflow": "2.x",
+    "@nocobase/server": "2.x",
+    "@nocobase/test": "2.x"
+  }
+}
